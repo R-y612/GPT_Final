@@ -126,7 +126,9 @@ python lerobot/scripts/control_robot.py \
 - 在受控环境（*稳定、光照充足、整洁*）中表现最佳  
 - 对新物体位置的泛化能力有限  
 - 对摄像头角度变化敏感  
-  
+
+**3. 自主夹取[演示视频](https://github.com/user-attachments/assets/83425f75-9381-476a-ae9c-4746b61eb5be)**
+
 ## 查看我们的数据集和模型
 **1. 数据集**
 你可以在huggingface找到我们的[**数据集**](https://huggingface.co/datasets/aaaRick/so100_test613sec)。
@@ -166,7 +168,7 @@ requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'
 - 也可尝试手动克隆仓库并上传数据。  
 
 ## 许可证  
-[MIT许可证](LICENSE.md) - 学术使用需署名。  
+[MIT许可证]([LICENSE.md](https://github.com/R-y612/GPT_Final/blob/main/LICENSE)) - 学术使用需署名。  
 
 ## 参考文献  
 1. Seeed Studio. (2025). SO-ARM100 Integration Guide

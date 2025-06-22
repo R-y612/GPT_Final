@@ -24,6 +24,7 @@ This project implements a custom grasping pipeline for the **SO-ARM100** robotic
 
 ## Workflow Implementation
 <font color='Crimson'>***The project is based on detailed guidance from [seeed studio](https://wiki.seeedstudio.com/cn/lerobot_so100m/)***</font>
+
 **1.  Set device permissions**
 ```
 ls /dev/ttyACM*  #checking all ports connected.
@@ -128,6 +129,10 @@ python lerobot/scripts/control_robot.py \
 -  Sensitive to camera angle variations
   
 
+**3. [Demo Video](https://github.com/user-attachments/assets/83425f75-9381-476a-ae9c-4746b61eb5be) of Grasping automatically.**
+
+  
+
 ## Finding Our Dataset and ACT-Trained Model
 **1. Dataset**
 - You can find **[our datasets](https://huggingface.co/datasets/aaaRick/so100_test613sec)** on huggingface. 
@@ -170,7 +175,7 @@ requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'
 
 
 ## License
-[MIT License](LICENSE.md) - Free for academic use with attribution
+[MIT License](https://github.com/R-y612/GPT_Final/blob/main/LICENSE) - Free for academic use with attribution
 
 ## References
 1. Seeed Studio. (2025). SO-ARM100 Integration Guide
